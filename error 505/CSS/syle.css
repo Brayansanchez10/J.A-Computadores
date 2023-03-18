@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+.img1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 230px;
+    margin-left: 850px;
+}
+
+.img2 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 800px;
+}
+.Error {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 580px;
+    color: black;
+    font-size: 250px;
+}
+.err {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 620px;
+    color: black;
+    font-size: 50px;
+    
+}
+.linea {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 590px;
+    background: black;
+    width: 360px;
+    height: 10px;
+}
+.text1 {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 600px;
+    color: black;
+    font-size: 37px;
+    text-align: center;
+}
