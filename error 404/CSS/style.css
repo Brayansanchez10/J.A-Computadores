@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: #f2f2f2;
+}
+
+.img0 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 900px;
+    width: 600px;
+    height: 600px;
+}
+.img1 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 800px;
+    width: 500x;
+    height: 500px;
+}
+.tex0 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 300px;
+}
+.tex1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 660px;
+    font-size: 50px;
+}
+.tex2 {
+    position: absolute;
+    text-align: center;
+    margin-top: 370px;
+    margin-left: 500px;
+    font-size: 55px;
+}
+
+.linea {
+    background: black;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 510px;
+    width: 430px;
+    height: 10px;
+}
