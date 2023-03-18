@@ -1,0 +1,28 @@
+<nav>
+            <ul class="MenuIzquierda">
+                <li>
+                    <a href="#">
+                        <i class="bx bxs-dashboard"></i>
+                        <span class="text">Usuarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYNJREFUSEvNlYExBEEQRd9FgAjIABEgAyJABGSACBABIkAEiAARIAMioN5VjxpzvbdbW3VVumrrbvdm+nX/+b03YcExWXB+/g1gAzgG/LwFLoHPId0P6WANuAZOgQNgORL7vRcyBFCSC7AL79+A7ejE+87oA1jtRVxXkUWZjA9gFXiJ6zCjzAOY6ChkyfY+AVvVD2muLoBynPQcYgvYAR7bPV0Add2PxV+h+13cC7fyFrAHlDW/nC6AlZT2N0Pjsuk9tG8BZ+G0P010AbTfEnATZ6Al7cjnu5HhFVivspW1gwDfsapUZVIHrI4WYEdatxege55jlRZUIsPND9XuViJ/mlEkk6hN5IEXjzsTWtfIACvtdGcAp/U8kpRhEiCohmeAGatmgDIDamxC9dd+HnANzwClkLk2LRZVf72tLQ3PxjMoL7sMMGPVrIN6BkwsyOpbh2SA+8rG06oygK9nq60vX2ptjAYkuaaytFCl87kde5VOe+cgA4x+1vd/MDpx2bhwwA9vPlQZDn0uzAAAAABJRU5ErkJggg=="/>
+                        <span class="text">Tienda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIRJREFUSEtjZKAxYKSx+Qx0teA/lX0DdjyyD0YtQA9hjCCichRAjENPRdSKB7i5oxbgijeSgohQbscWb4PLAnKSL0k+GLUAJQRonpMfMDAwyJMT6Eh6LjIwMBjA+OhpPICBgaGBgYFBn0xLHjIwMBQwMDBswGUBmebi1kYol1JsIc0tAABnehYZVT3QYAAAAABJRU5ErkJggg=="/>
+                        <span class="text">Inventario</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVtJREFUSEu1leExBEEQhb+LgAyQARkQARkgAkIgAiUDMiACMiADJwMioL6rnavZMbM9t+X6193O9ns9r1/3LthyLLaMTy/BIXAFXAwFPQC3wDIqsIdgH3gDdguwL+AoImkRCHoHHFeAy6IlegUuAX+PokbQqjhSQ/CDkqRG8AScRmiN82fgLD+rEdi4vZkE5nqLdZQEyvMxEzylSbB2V06gFV86mpqAvgHlPJ9yV06wifaC67D3gaTs2WOamZzgpyHN/fDyznCeg0/deoUdETitN4BAet1IlUeS/iFw/Gt6ngxSCGgoSwRelUgHmZykSIo5QInEZxG4EvrOykm9Nk0k5kROa9o0VdwatLRnyqWXe+MTUInmoHmwiV1L43WtilYvogFXe3NHG7W1rpVBV9msaC8pixa+7l3XZaWtG43c0rpezxfNXEkcuDQn+tz///LJjLSfPO+9wWySX/3sSRlkajjpAAAAAElFTkSuQmCC"/>
+                        <span class="text">Garantias</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>

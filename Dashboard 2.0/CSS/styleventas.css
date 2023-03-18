@@ -1,0 +1,518 @@
+*
+{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans";
+    font-style: normal;
+    background: rgb(241, 249, 252);   
+}
+
+
+
+.Izquierda {
+    width: 15%;
+    height: 950px;
+    background: #000000;
+}
+
+.Logo { 
+    position: relative;
+    top: 30px;
+    left: 70px;
+    width: 150px;
+    height: 150px;
+}
+.Logotitulo{
+    font-size: 25px;
+    color: #00C1FF;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.MenA { 
+    position: absolute;
+    width: 178px;
+    height: 151px;
+    left: 50px;
+    top: 280px;
+}
+.MenB{
+    position: absolute;
+    width: 178px;
+    height: 184px;
+    left: 50px;
+    top: 450px;
+}
+
+.login{
+    position: relative;
+    top: 500px;
+    left: 60px;
+
+    width: 170px;
+    height: 50px;
+    bottom: 30px;
+    background: white;
+    border-radius: 6px;
+}
+.logintext{
+    font-size: 13px;
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 60px;
+    top: 8px;
+}
+
+.loginfoto{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 10px;
+    top: 8px;
+    border-radius: 30px;
+}
+.loginflecha {
+    position: absolute;
+    left: 130px;
+    top: 15px;
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+
+.header {
+    font-size: 25px;
+    color: #00C1FF;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+.Buscar button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+}
+.Buscar {
+    --timing: 0.3s;
+    --width-of-input: 500px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: absolute;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg,#fff);
+    top: 10px;
+    left: 500px;
+}
+.input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+}
+.Buscar:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+.Buscar:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+input:focus {
+    outline: none;
+}
+.Buscar:focus-within:before {
+    transform: scale(1);
+}
+.reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+}
+input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+}
+.Buscar svg {
+    width: 17px;
+    margin-top: 3px;
+}
+
+.gra1{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 500px;
+    top: 155px;
+}
+.gra2{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 1100px;
+    top: 155px;
+}
+.linea1 {
+    position: absolute;
+    width: 1500px;
+    height: 0px;
+    left: 350px;
+    top: 450px;
+
+    border: 1px solid #000000;
+}
+
+.Ventas{
+    position: absolute;
+    width: 1071px;
+    height: 432px;
+    left: 350px;
+    top: 499px;
+    background-color: #ffffff;
+}
+
+.Ventas .cliente{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1071px;
+    height: 64px;
+    border-bottom: 1px solid #F1F4F9;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Ventas .cliente .cuadro{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    align-items: flex-start;
+    padding: 11px 10px;
+    width: 47px;
+    height: 44px;
+    background: #FFEAC5;
+    border-radius: 10px;
+
+    font-size: 18px;
+    color:#FFB536;
+}
+
+.Ventas .cliente .nombre{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 21px 32px;
+gap: 10px;
+width: 492px;
+height: 64px;
+
+}
+.Ventas .cliente .dinero{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente .id{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente .proceso{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: 44px;
+
+    background: #FFF3DB;
+    border-radius: 8px;
+}
+.Ventas .cliente .proceso h2{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #F2994A;
+}
+
+
+.Ventas .cliente1{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    padding: 0px;
+    width: 1071px;
+    height: 64px;
+    border-bottom: 1px solid #F1F4F9;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Ventas .cliente1 .cuadro1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    align-items: flex-start;
+    padding: 11px 10px;
+    width: 47px;
+    height: 44px;
+    background: #FFEAC5;
+    border-radius: 10px;
+
+    font-size: 18px;
+    color:#FFB536;
+}
+
+.Ventas .cliente1 .nombre1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 21px 32px;
+gap: 10px;
+width: 492px;
+height: 64px;
+
+}
+.Ventas .cliente1 .dinero1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente1 .id1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente1 .proceso1{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: 44px;
+
+    background: #FFF3DB;
+    border-radius: 8px;
+}
+.Ventas .cliente1 .proceso1 h2{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #F2994A;
+}
+
+
+.Ventas .cliente2{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1071px;
+    height: 64px;
+    border-bottom: 1px solid #F1F4F9;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Ventas .cliente2 .cuadro2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    align-items: flex-start;
+    padding: 11px 10px;
+    width: 47px;
+    height: 44px;
+    background: #FFEAC5;
+    border-radius: 10px;
+
+    font-size: 18px;
+    color:#FFB536;
+}
+
+.Ventas .cliente2 .nombre2{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 21px 32px;
+gap: 10px;
+width: 492px;
+height: 64px;
+
+}
+.Ventas .cliente2 .dinero2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente2 .id2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente2 .proceso2{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: 44px;
+
+    background: #FFF3DB;
+    border-radius: 8px;
+}
+.Ventas .cliente2 .proceso2 h2{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #F2994A;
+}
+
+
+.Ventas .cliente3{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1071px;
+    height: 64px;
+    border-bottom: 1px solid #F1F4F9;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Ventas .cliente3 .cuadro3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    align-items: flex-start;
+    padding: 11px 10px;
+    width: 47px;
+    height: 44px;
+    background: #FFEAC5;
+    border-radius: 10px;
+
+    font-size: 18px;
+    color:#FFB536;
+}
+
+.Ventas .cliente3 .nombre3{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 21px 32px;
+gap: 10px;
+width: 492px;
+height: 64px;
+
+}
+.Ventas .cliente3 .dinero3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente3 .id3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 32px;
+    gap: 10px;
+    width: 492px;
+    height: 64px;
+    
+}
+.Ventas .cliente3 .proceso3{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: 44px;
+
+    background: #FFF3DB;
+    border-radius: 8px;
+}
+.Ventas .cliente3 .proceso3 h2{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #F2994A;
+}
