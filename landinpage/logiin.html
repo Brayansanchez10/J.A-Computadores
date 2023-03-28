@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>REGISTRO</title>
+  <link rel="stylesheet" href="CSS/logiin.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="signupFrm">
+        <form action="" class="form">
+          <h1 class="title">BIENVENIDO</h1>
+          <img class="logoimg" src="IMG/ds.png">
+        <P class="NOMBRE">J.A COMPUTADORES </P>
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="a" required>
+            <label for="" class="label">USUARIO</label>
+          </div>
+          <div class="inputContainer">
+            <input type="password" id="password" name="password" class="input" required>
+            <label for="" class="label">INGRESE SU CONTRASEÑA</label>
+            <button type="button" class="password-toggle-btn" onclick="togglePasswordVisibility()">Mostrar</button>
+          </div>
+          <button class="inicarbtm">INICIAR SESION</button>
+          <div>
+            <h2 class="olvido">Has olvidado tu contraseña? <a href="recuperar.html" style="color:#147696;">Recuperar Contraseña</a></h2>
+            <h2 class="crear">No tienes Cuenta? <a href="register.html" style="color: #147696;">Crear Cuenta</a></h2>
+          </div>
+        </form>
+      </div>
+</body>
+<script>
+  function togglePasswordVisibility() {
+  const passwordField = document.getElementById("password");
+  
+  if (passwordField.type === "password") {
+      passwordField.type = "text";
+  } else {
+      passwordField.type = "password";
+  }
+  }
+  </script>
+</html>
